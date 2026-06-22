@@ -6,4 +6,26 @@ body {
 ul {
     background-color: darkslategrey;
     color:white;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color:white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:green;
 }
